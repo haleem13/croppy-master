@@ -53,7 +53,7 @@ class CupertinoImageCropperBottomAppBar extends StatelessWidget
             ),
             child: Text(
               l10n.doneLabel,
-              style: TextStyle(color: Colors.white
+              style: const TextStyle(color: CupertinoColors.white)
                   //  onTap != null
                   // ? primaryColor
                   // : primaryColor.withOpacity(0.5),

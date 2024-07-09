@@ -315,9 +315,7 @@ class CustomCropper extends StatelessWidget {
                   Builder(
                     builder: (context) => TextButton(
                       child: const Text('Done',
-                          style: TextStyle(
-                            color: Colors.white,
-                          )),
+                          style: const TextStyle(color: CupertinoColors.white)),
                       onPressed: () async {
                         // Enable the Hero animations
                         CroppableImagePageAnimator.of(context)
