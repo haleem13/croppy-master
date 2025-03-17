@@ -27,7 +27,7 @@ apply plugin: 'com.android.library'
 android {
     // Bumping the plugin compileSdkVersion requires all clients of this plugin
     // to bump the version in their app.
-    namespace "com.mohibs.incognito-croppy"
+    // namespace "com.mohibs.incognito-croppy"
     compileSdkVersion 31
 
     // Bumping the plugin ndkVersion requires all clients of this plugin to bump
