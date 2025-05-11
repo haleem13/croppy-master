@@ -60,7 +60,7 @@ class CupertinoImageCropperBottomAppBar extends StatelessWidget
                   ),
             ),
           ),
-        ),
+        
       ],
     );
   }
